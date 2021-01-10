@@ -7,24 +7,24 @@ https://cheeseswap.info/dev/v2/tickers
 
 example
 
-'''
+```
 
 curl --request GET
    --url https://cheeseswap.info/dev/v2/tickers
    
-'''   
+```   
    
 ## event configuration
 https://cheeseswap.info/dev/v2/assets
 
 example
 
-''' 
+```  
 
 curl --request GET
    --url https://cheeseswap.info/dev/v2/assets
    
-'''  
+```   
    
 ## event configuration
 https://cheeseswap.info/dev/v2/orderbook/{pair}
@@ -34,12 +34,12 @@ example: https://cheeseswap.info/dev/v2/orderbook/0x793766efcA4CEF8c55EE950E759A
 
 example
 
-'''
+```  
 
 curl --request GET
    --url https://cheeseswap.info/dev/v2/orderbook/{pair}
 
-'''   
+```    
 
 
 ## event configuration
@@ -50,11 +50,11 @@ example: https://cheeseswap.info/dev/v2/trades/0x793766efcA4CEF8c55EE950E759AD6F
 
 example
 
-'''
+```  
 
 curl --request GET
    --url https://cheeseswap.info/dev/v2/trades/{pair}
 
-'''
+```  
    
    
